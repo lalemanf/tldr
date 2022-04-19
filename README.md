@@ -1,2 +1,2 @@
 # tldr
-Too Long Didn't Read
+Too Long Didn't Read.
