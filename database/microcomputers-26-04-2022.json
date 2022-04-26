@@ -1,0 +1,32 @@
+[
+  {
+    "description": "Un espejo mágico con información en tiempo real, representada en una pantalla que se sitúa por detrás de un espejo o cristal opaco",
+    "link": "https://www.youtube.com/watch?v=cVmDjJmcd2M",
+    "link-title": "Video demostración",
+    "name": "Google Enable Magic Mirror"
+  },
+  {
+    "description": "Un completo salón ARCADE con un listado enorme de emuladores; desde las recreativas más míticas hasta las consolas domésticas de las últimas generaciones",
+    "link": "https://retropie.org.uk/download/",
+    "link-title": "Descargar RetroPie Frontend",
+    "name": "RetroPie"
+  },
+  {
+    "description": "Proyecto para construirte tu propio centro de fotogrametría. Esta técnica consiste en fotografiar un objeto en la vida real desde todos sus ángulos. Después se lleva al ordenador como un objeto 3D completamente modelado y listo para usar",
+    "link": "https://en.openscan.eu/",
+    "link-title": "OpenScan",
+    "name": "OpenScan"
+  },
+  {
+    "description": "Configurar la Raspberry para que haga de servidor Web es uno de los tops que más puede interesarte. Instala el tipo de server que necesites; Apache + PHP + MySQL y crea webs que luego tengas acceso desde cualquier sitio. Recuerda que el router que tienes en casa tiene un puerto USB el cual lo puedes usar para alimentar tu Raspberry y estar siempre funcionando. Por otro lado, necesitarás abrir los puertos de tu router para que se pueda acceder desde fuera de la red doméstica y un servicio DDNS para que, en caso de que se reinicie el router, no tengas que cambiar ninguna IP",
+    "link": "https://www.noip.com/es-MX",
+    "link-title": "Servicio DDNS no-ip gratuito",
+    "name": "LAMP Server"
+  },
+  {
+    "description": "Crea tu propia plataforma de streaming de contenido y comparte con tu familia y amigos las pelis y series que más te gustan. Puedes ir a casa de un amigo o amiga y disfrutar de cualquier contenido que tengas en la Raspberry",
+    "link": "https://www.thesecmaster.com/build-your-own-ott-platforms-like-netflix-using-raspberry-pi-and-plex-media-server/",
+    "link-title": "Build your own OTT Platform",
+    "name": "Tu propio Netflix o PLEX"
+  }
+]

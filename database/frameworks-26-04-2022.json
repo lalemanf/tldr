@@ -1,0 +1,32 @@
+[
+  {
+    "description": "Creo que no necesita presentación, es el más usado a día de hoy según las últimas estadísticas",
+    "link": "https://www.youtube.com/watch?v=Di4eAxkPNp0&list=PLPl81lqbj-4KswGEN6o4lF0cscQalpycD",
+    "link-title": "React desde 0",
+    "name": "ReactJS"
+  },
+  {
+    "description": "Otro framework de JavaScript con sintaxis más sencilla e igual de potente que React. Cada día va ganando más adept@s",
+    "link": "https://www.youtube.com/watch?v=GAQB7Y4X5fM&list=PLPl81lqbj-4J-gfAERGDCdOQtVgRhSvIT",
+    "link-title": "VueJS desde 0",
+    "name": "VueJS"
+  },
+  {
+    "description": "Parecido a Laravel, también es un framework orientado a MVC (Modelo Vista Controlador) y parece ser que últimamente está bastante de moda",
+    "link": "https://www.youtube.com/watch?v=YG_sSqLEKwo",
+    "link-title": "Ruby on Rails: de básico a avanzado en 60'",
+    "name": "Ruby on Rails"
+  },
+  {
+    "description": "Otro framework más como ReactJS y VueJS pero con la gran diferencia de que no usa un DOM Virtual, es mucho más rápido y la sintaxis es bastante cómoda. Dispone de un ecosistema de librerías para portar o crear tu APP en las plataformas más utilizadas, además de SSR (Server Side Rendering) , promesas nativas y demás. El tutorial básico que hay en la web oficial está genial y toca todos los aspectos del framework, lo recomiendo mucho",
+    "link": "https://www.youtube.com/watch?v=77oMfyugtCk&list=PLPl81lqbj-4J6xcUu7SW4f3Y1ou8X8rRY",
+    "link-title": "Curso Svelte JS SPA + Store + Router + Firebase",
+    "name": "Svelte"
+  },
+  {
+    "description": "Un framework para backend en NodeJS, muy interesante",
+    "link": "https://www.youtube.com/watch?v=mG4U9t5nWG8&list=PLPl81lqbj-4IEnmCXEJeEXPepr8gWtsl6",
+    "link-title": "NodeJS + Express + MongoDB + HWT + API + REST",
+    "name": "ExpressJS "
+  }
+]
