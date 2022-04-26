@@ -8,7 +8,7 @@
     </h1>
 
     <p class="blink">
-        Última actualización /// 26 de Abril de 2022
+        Actualizado: 26 / 04 / 2022
     </p>
     
     <p>
