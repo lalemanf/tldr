@@ -772,7 +772,7 @@ var app = (function () {
     			img = element("img");
     			t = space();
     			attr_dev(img, "alt", /*game*/ ctx[5].name);
-    			if (!src_url_equal(img.src, img_src_value = `publi/img/` + /*game*/ ctx[5].slug + `.jpg`)) attr_dev(img, "src", img_src_value);
+    			if (!src_url_equal(img.src, img_src_value = `public/img/` + /*game*/ ctx[5].slug + `.jpg`)) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "class", "svelte-82b41x");
     			add_location(img, file$1, 63, 28, 2201);
     			attr_dev(a, "href", `https://www.youtube.com/watch?v=` + /*game*/ ctx[5].youtube);
