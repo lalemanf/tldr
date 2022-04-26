@@ -80,7 +80,7 @@
     .covers {
         display: grid;
         width: 100%;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         justify-items: center;
         grid-gap: 20px;
     }
