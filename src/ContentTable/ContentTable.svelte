@@ -80,7 +80,7 @@
     .covers {
         display: grid;
         width: 100%;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         justify-items: center;
         grid-gap: 20px;
     }
@@ -88,7 +88,6 @@
     .cover {
         justify-content: space-between;
         position: relative;
-        min-height: 200px;
     }
 
     .cover img {
@@ -96,7 +95,7 @@
         border-radius: 8px;
     }
 
-    @media only screen and (min-width: 900px){
+    @media only screen and (min-width: 900px) {
         .covers {
             grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         }

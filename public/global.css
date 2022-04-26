@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 :root {
 	--c-yellow: #f1c33c;
 	--c-font: #d1d5f0;
@@ -19,7 +23,8 @@ a {
 
 body {
 	margin: 0 auto;
-	width: 1024px;
+	width: 100%;
+	padding: 20px;
 	background: linear-gradient(var(--c-purple-1), var(--c-purple-2));
 	
 	font-family: var(--font);
@@ -180,5 +185,18 @@ table {
 	
 	to {
 		filter: hue-rotate(360deg);
+	}
+}
+
+@media (min-width: 1024px) {
+	body {
+		max-width: 1024px;
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 800px) {
+	figure {
+		margin: 0;
 	}
 }
