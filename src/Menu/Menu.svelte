@@ -4,6 +4,10 @@
 
     function menuTrigger(){
         menu = !menu;
+        (menu ?
+            document.documentElement.style.overflow = 'hidden' :
+            document.documentElement.style.overflow = 'scroll'
+        );
     }
 </script>
 
@@ -12,7 +16,7 @@
         class="menu-trigger"
         on:click={ menuTrigger }
     >
-        <img class="blink" src="icon/menu.png" alt="">
+        <img class="blink" src="img/menu.png" alt="">
     </span>
 
     { #if menu }
