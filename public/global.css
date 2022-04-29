@@ -37,18 +37,12 @@ body {
 }
 
 h1 {
-	margin-bottom: 100px;
+	margin: 50px 10px 100px 0;
+	font-size: 25px;
 }
 
 h2 {
 	margin-top: 50px;
-}
-
-.blink {
-	animation: blink 2s infinite linear;
-	font-style: italic;
-	color: var(--c-yellow);
-	font-weight: 900;
 }
 
 table {
@@ -76,6 +70,13 @@ table {
 		text-align: center;
 	}
 
+.blink {
+	animation: blink 2s infinite linear;
+	font-style: italic;
+	color: var(--c-yellow);
+	font-weight: 900;
+}
+
 .total {
 	text-align: center;
 	font-style: italic;
@@ -96,6 +97,10 @@ table {
 	body {
 		max-width: 1024px;
 		margin: 0 auto;
+	}
+
+	h1 {
+		font-size: 2em;
 	}
 }
 
