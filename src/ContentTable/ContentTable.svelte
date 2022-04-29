@@ -41,7 +41,6 @@
                                     <a
                                         href={ data.link }
                                         target="_blank"
-                                        class="glitch"
                                     >
                                         
                                         { data["link-title"] }
