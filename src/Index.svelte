@@ -20,7 +20,7 @@
     <Menu items={ menuItems } />
     
     <p class="blink">
-        Actualizado: 26 / 04 / 2022
+        Actualizado: 29 / 04 / 2022
     </p>
     
     <p>
@@ -93,5 +93,9 @@
 
         <p>
             En el siguiente listado se muestran películas, series y documentales relacionados con el mundo de la informática y los videojuegos. Contenido que considero bastante interesante y que, si no tenéis nada mejor que hacer o no os apetece jugar a ningún juego de la lista y estáis algo aburrid@s, le deis una oportunidad a alguna de estas cintas.
+        </p>
+
+        <p class="blink">
+            Próximamente
         </p>
 </main>
