@@ -12,7 +12,7 @@
 
 </script>
 
-<main>
+<main id="Index">
     <h1 id="top">
         T̷̢̟͓̝̪̖̳̒͑̄͒̈̾̌̀̿L̵̛̛̩̜̹̼̹͕̺͒̀Ḏ̶͎͙̲̑͗͝R̸͍̝̰͖͈͖̮̪̮̯̓̏͂̌̏̉͌͊͑̓
     </h1>
@@ -20,7 +20,7 @@
     <Menu items={ menuItems } />
     
     <p class="blink">
-        Actualizado: 29 / 04 / 2022
+        Actualizado: 15 / 05 / 2022
     </p>
     
     <p>

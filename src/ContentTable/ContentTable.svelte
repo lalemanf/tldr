@@ -1,22 +1,21 @@
+<style lang="scss" src="./ContentTable.scss"></style>
+
 <script>
-    export let database;
+    import VideoPlayer from '../VideoPlayer/VideoPlayer.svelte';
+    import { getData, cinemaMode, cinemaModeChange } from '../stores/main'
     
-    const dataBaseURL = 'https://tldr-ea4a5-default-rtdb.europe-west1.firebasedatabase.app/';
+    export let database;
 
-    const fetchData = () => {
-        return fetch(dataBaseURL + database + '.json')
-            .then(res => res.json())
-            .then(res => res)
-            .catch(e => console.error(e))
-    }
-
-    let data = fetchData();
-
+    let data = getData(database);
 </script>
 
-<main>
+<main class="ContentTable">
+    { #if $cinemaMode }
+        <VideoPlayer />
+    { /if }
+    
     {#await data}
-        <p>Loading Data...</p>
+        <p>Cargando listado...</p>
     {:then data}
         {#if database !== `games`}
             <figure>
@@ -52,19 +51,18 @@
                 </table>
             </figure>
         {:else}
+            <h2>
+                CinemaMode: { $cinemaMode }
+            </h2>
+            <button>CINEMA</button>
             <div class="covers">
                 { #each data as game }
                     <div class="cover">
-                        <a
-                            href={ `https://www.youtube.com/watch?v=` + game.youtube }
-                            title={ game.name }
-                            target="_blank"
+                        <img
+                            alt={ game.name }
+                            src={ `img/` + game.slug + `.jpg` }
+                            on:click={ () => cinemaModeChange(game) }
                         >
-                            <img
-                                alt={ game.name }
-                                src={ `img/` + game.slug + `.jpg` }
-                            >
-                        </a>
                     </div>
                 { /each }
             </div>
@@ -74,29 +72,3 @@
         {/if}
     {/await}   
 </main>
-
-<style>
-    .covers {
-        display: grid;
-        width: 100%;
-        grid-template-columns: 1fr 1fr;
-        justify-items: center;
-        grid-gap: 20px;
-    }
-
-    .cover {
-        justify-content: space-between;
-        position: relative;
-    }
-
-    .cover img {
-        max-width: 100%;
-        border-radius: 8px;
-    }
-
-    @media only screen and (min-width: 900px) {
-        .covers {
-            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        }
-    }
-</style>
