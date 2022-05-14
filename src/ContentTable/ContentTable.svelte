@@ -51,10 +51,6 @@
                 </table>
             </figure>
         {:else}
-            <h2>
-                CinemaMode: { $cinemaMode }
-            </h2>
-            <button>CINEMA</button>
             <div class="covers">
                 { #each data as game }
                     <div class="cover">
