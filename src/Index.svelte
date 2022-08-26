@@ -20,7 +20,7 @@
     <Menu items={ menuItems } />
     
     <p class="blink">
-        Actualizado: 19 / 05 / 2022
+        Actualizado: 26 / 08 / 2022
     </p>
     
     <p>
